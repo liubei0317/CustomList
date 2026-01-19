@@ -1,0 +1,99 @@
+{
+  "version": "1.1.1",
+  "windows": {
+    "main": {
+      "main": true,
+      "url": "app://editor/index.html",
+      "windowType": "dockable",
+      "x": 0,
+      "y": 25,
+      "width": 1920,
+      "height": 996,
+      "layout": {
+        "type": "dock-h",
+        "children": [
+          {
+            "width": 294.1875,
+            "height": 906.5,
+            "type": "dock-v",
+            "children": [
+              {
+                "width": 294.1875,
+                "height": 298.828125,
+                "type": "panel",
+                "active": 0,
+                "children": [
+                  "hierarchy"
+                ]
+              },
+              {
+                "width": 294.1875,
+                "height": 604.671875,
+                "type": "panel",
+                "active": 0,
+                "children": [
+                  "assets"
+                ]
+              }
+            ]
+          },
+          {
+            "width": 362.078125,
+            "height": 906.5,
+            "type": "panel",
+            "active": 0,
+            "children": [
+              "inspector"
+            ]
+          },
+          {
+            "width": 1257.734375,
+            "height": 906.5,
+            "type": "dock-v",
+            "children": [
+              {
+                "width": 1257.734375,
+                "height": 603.671875,
+                "type": "panel",
+                "active": 0,
+                "children": [
+                  "scene"
+                ]
+              },
+              {
+                "width": 1257.734375,
+                "height": 299.828125,
+                "type": "panel",
+                "active": 0,
+                "children": [
+                  "console",
+                  "timeline",
+                  "game-window"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "panels": [
+        "hierarchy",
+        "assets",
+        "scene",
+        "console",
+        "timeline",
+        "game-window",
+        "inspector"
+      ]
+    },
+    " common-asset-worker-worker": {}
+  },
+  "panels": {
+    "project-settings": {
+      "x": 680,
+      "y": 234,
+      "width": 584,
+      "height": 554
+    }
+  },
+  "panelLabelWidth": {}
+}
